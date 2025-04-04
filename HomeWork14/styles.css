@@ -1,0 +1,29 @@
+.img{
+    height: 500px;
+}
+
+.sliderContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.dots{
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+.dot{
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    margin: 0 5px;
+    background-color: #a31d1d;
+    border-radius: 50%;
+    cursor: pointer;
+}
+  
+.dot.active{
+    background-color: #333;
+}
+
+
