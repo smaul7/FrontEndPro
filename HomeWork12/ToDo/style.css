@@ -1,0 +1,15 @@
+.body {
+  font-family: Arial;
+  margin: 40px;
+}
+.todo-item {
+  margin-bottom: 8px;
+}
+.todo-item button {
+  margin-left: 10px;
+  background-color: crimson;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  cursor: pointer;
+}
