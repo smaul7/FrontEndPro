@@ -4,7 +4,7 @@ const createPostForm = document.getElementById('create-post-form');
 const titleInput = document.getElementById('title');
 const bodyInput = document.getElementById('body');
 
-fetch(`${postAPI}?_limit=2`)
+fetch(`${postAPI}?_limit=10`)
   .then(response => response.json())
   .then(posts => {
     posts.forEach(post => {
