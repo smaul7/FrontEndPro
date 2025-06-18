@@ -1,0 +1,11 @@
+.sideBar{
+    max-width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sbHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
