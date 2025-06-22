@@ -1,0 +1,7 @@
+.header{
+  grid-area: header;
+  text-align: center;
+  background-color: var(--soft-brown-1);
+  color: var(--dark-gray);
+  padding: 12px 24px;
+}
